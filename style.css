@@ -7,7 +7,7 @@
 body{
   background-image: linear-gradient(180deg, #0B2026, #041536);
   background-size: cover;
-  min-height: 600px;
+  min-height: 800px;
 }
 
 section.main{
@@ -61,4 +61,18 @@ section.main{
   height: 80px;
   background-color: #16F57D;
   margin-top: -30px;
+}
+
+@media screen and (max-width: 768px)  {
+  .box-frase{
+    width: 90%;
+  }
+
+  .frase{
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 151.02%;
+    color: #FFFF;
+    padding: 40px;
+  }
 }
