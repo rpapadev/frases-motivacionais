@@ -6,11 +6,12 @@
 
 body{
   background-image: linear-gradient(180deg, #0B2026, #041536);
-  height: 500px;
+  background-size: cover;
+  min-height: 100%;
 }
 
 section.main{
-
+  height: 100%;
   text-align: center;
   align-items: center;
   justify-content: center;
