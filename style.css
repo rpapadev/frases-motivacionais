@@ -7,7 +7,7 @@
 body{
   background-image: linear-gradient(180deg, #0B2026, #041536);
   background-size: cover;
-  min-height: 100%;
+  min-height: 600px;
 }
 
 section.main{
