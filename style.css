@@ -3,3 +3,61 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+body{
+  background-image: linear-gradient(180deg, #0B2026, #041536);
+  height: 500px;
+}
+
+section.main{
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  margin-top: 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 151.02%;
+  color: #16F57D;
+}
+
+.box-frase{
+  width: 50%;
+  height: auto;
+  background: rgba(1, 17, 20, 0.8);
+  box-shadow: 4px 4px 8px rgba(14, 14, 14, 0.25);
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frase{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 151.02%;
+  color: #FFFF;
+  padding: 40px;
+}
+
+.button{
+  background-image: url('assets/refresh.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  background-color: #16F57D;
+  margin-top: -30px;
+}
